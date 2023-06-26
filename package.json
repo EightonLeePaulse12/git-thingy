@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "json-server --watch ./database/anime.json",
     "build": "vue-cli-service build"
   },
   "dependencies": {
